@@ -1,0 +1,86 @@
+[
+    {
+        "Name": "Interpersonal Skills - KPIs",
+        "Description": "",
+        "KPIs": [
+            {
+                "Name": "Ownership",
+                "Description": "High Sense of Urgency, Availability, and Ownership"
+            },
+            {
+                "Name": "Availability",
+                "Description": "Available and responsive whenever needed"
+            },
+            {
+                "Name": "Decision Making",
+                "Description": "Able & willing to consider all facts before making a decision"
+            },
+            {
+                "Name": "Planner",
+                "Description": "Anticipates and prepares for future needs and challenges"
+            },
+            {
+                "Name": "Innovative",
+                "Description": "Ability to find innovative procedures & solutions to problems"
+            },
+            {
+                "Name": "Communication Skills",
+                "Description": "Communicates well (verbally and written)"
+            },
+            {
+                "Name": "Team player",
+                "Description": "Support team spirit and working as part of the team"
+            },
+            {
+                "Name": "Flexible",
+                "Description": "Flexible and adaptive while dealing with different situations"
+            },
+            {
+                "Name": "Responsible",
+                "Description": "Takes responsibility for actions"
+            },
+            {
+                "Name": "Tolerate Stress",
+                "Description": "Work well under pressure"
+            },
+            {
+                "Name": "Good Listener",
+                "Description": "Listens well and accepts other ideas and criticism"
+            },
+            {
+                "Name": "Coaching",
+                "Description": "Supporting and mentoring team members"
+            }
+        ]
+    },
+    {
+        "Name": "Duties Efficiency - KPI",
+        "Description": "",
+        "KPIs": [
+            {
+                "Name": "Team Coaching",
+                "Description": "Audit, coach, counsel & follow-up on his team members"
+            },
+            {
+                "Name": "Team Reviews",
+                "Description": "Conducting fair, constructive, objective & timely team feedback"
+            },
+            {
+                "Name": "Career Development",
+                "Description": "Career path planning and development for team members"
+            },
+            {
+                "Name": "Bench Management",
+                "Description": "Vacation, training, knowledge transfers, or internal projects"
+            },
+            {
+                "Name": "Processes & Standards",
+                "Description": "Owning, maintaining, & governing team processes & standards"
+            },
+            {
+                "Name": "Technical Skills",
+                "Description": "Depth of technical expertise & knowledge of new technologies"
+            }
+        ]
+    }
+]
