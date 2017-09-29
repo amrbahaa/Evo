@@ -4,50 +4,62 @@
         "Description": "",
         "KPIs": [
             {
+                "Id": 1,
                 "Name": "Ownership",
                 "Description": "High Sense of Urgency, Availability, and Ownership"
             },
             {
+                "Id": 2,
                 "Name": "Availability",
                 "Description": "Available and responsive whenever needed"
             },
             {
+                "Id": 3,
                 "Name": "Decision Making",
                 "Description": "Able & willing to consider all facts before making a decision"
             },
             {
+                "Id": 4,
                 "Name": "Planner",
                 "Description": "Anticipates and prepares for future needs and challenges"
             },
             {
+                "Id": 5,
                 "Name": "Innovative",
                 "Description": "Ability to find innovative procedures & solutions to problems"
             },
             {
+                "Id": 6,
                 "Name": "Communication Skills",
                 "Description": "Communicates well (verbally and written)"
             },
             {
+                "Id": 7,
                 "Name": "Team player",
                 "Description": "Support team spirit and working as part of the team"
             },
             {
+                "Id": 8,
                 "Name": "Flexible",
                 "Description": "Flexible and adaptive while dealing with different situations"
             },
             {
+                "Id": 9,
                 "Name": "Responsible",
                 "Description": "Takes responsibility for actions"
             },
             {
+                "Id": 10,
                 "Name": "Tolerate Stress",
                 "Description": "Work well under pressure"
             },
             {
+                "Id": 11,
                 "Name": "Good Listener",
                 "Description": "Listens well and accepts other ideas and criticism"
             },
             {
+                "Id": 12,
                 "Name": "Coaching",
                 "Description": "Supporting and mentoring team members"
             }
@@ -58,26 +70,32 @@
         "Description": "",
         "KPIs": [
             {
+                "Id": 13,
                 "Name": "Team Coaching",
                 "Description": "Audit, coach, counsel & follow-up on his team members"
             },
             {
+                "Id": 14,
                 "Name": "Team Reviews",
                 "Description": "Conducting fair, constructive, objective & timely team feedback"
             },
             {
+                "Id": 15,
                 "Name": "Career Development",
                 "Description": "Career path planning and development for team members"
             },
             {
+                "Id": 16,
                 "Name": "Bench Management",
                 "Description": "Vacation, training, knowledge transfers, or internal projects"
             },
             {
+                "Id": 17,
                 "Name": "Processes & Standards",
                 "Description": "Owning, maintaining, & governing team processes & standards"
             },
             {
+                "Id": 18,
                 "Name": "Technical Skills",
                 "Description": "Depth of technical expertise & knowledge of new technologies"
             }

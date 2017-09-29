@@ -10,11 +10,18 @@ import { KpiService } from './../kpi.service';
 export class KpiListFormComponent implements OnInit {
 
   kpiGroups: KpiGroup[];
+  rateMin = 1;
+  rateMax = 5;
 
   constructor(private service: KpiService) { }
 
   ngOnInit() {
     this.service.getKpiGroups().subscribe(kpiGroups => this.kpiGroups = kpiGroups);
   }
+
+  onChangeRate(e, kpiId) {
+    let rate = e.source.value;
+  }
+
 
 }
