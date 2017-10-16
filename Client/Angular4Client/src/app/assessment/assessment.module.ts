@@ -15,25 +15,25 @@ import {
   MatDatepickerModule
 } from '@angular/material';
 
-import { EvaluationSheetComponent } from './evaluation-sheet/evaluation-sheet.component';
+import { AssessmentSheetComponent } from './assessment-sheet/assessment-sheet.component';
 import { CandidateInfoFormComponent } from './candidate-info-form/candidate-info-form.component';
 import { KpiListFormComponent } from './kpi-list-form/kpi-list-form.component';
 import { KpiService } from './kpi.service';
 
 @NgModule({
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
     MatSliderModule,
     MatInputModule,
     MatAutocompleteModule,
     MatDatepickerModule,
-    ReactiveFormsModule,
-    FormsModule,
     NgbModule,
     HttpModule,
     CommonModule
   ],
-  declarations: [EvaluationSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],
-  exports: [EvaluationSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],
+  declarations: [AssessmentSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],
+  exports: [AssessmentSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],
   providers: [KpiService]
 })
-export class EvaluationModule { }
+export class AssessmentModule { }

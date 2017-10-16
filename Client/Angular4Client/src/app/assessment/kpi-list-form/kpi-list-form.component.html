@@ -8,8 +8,8 @@
   <ul class="list-group">
     <li class="list-group-item" *ngFor="let kpi of group.KPIs">
       {{kpi.Name}} - {{kpi.Description}}
-      <md-slider [max]="rateMax" [min]="rateMin" step="1" thumbLabel tickInterval="1" (change)="onChangeRate($event, kpi.Id)">
-      </md-slider>
+      <mat-slider [max]="rateMax" [min]="rateMin" step="1" thumbLabel tickInterval="1" (change)="onChangeRate($event, kpi.Id)">
+      </mat-slider>
     </li>
   </ul>
 </div>
