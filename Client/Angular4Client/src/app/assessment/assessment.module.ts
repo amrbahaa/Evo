@@ -15,6 +15,8 @@ import {
   MatDatepickerModule
 } from '@angular/material';
 
+import { AssessmentRoutingModule } from './assessment-routing.module';
+
 import { AssessmentSheetComponent } from './assessment-sheet/assessment-sheet.component';
 import { CandidateInfoFormComponent } from './candidate-info-form/candidate-info-form.component';
 import { KpiListFormComponent } from './kpi-list-form/kpi-list-form.component';
@@ -30,7 +32,8 @@ import { KpiService } from './kpi.service';
     MatDatepickerModule,
     NgbModule,
     HttpModule,
-    CommonModule
+    CommonModule,
+    AssessmentRoutingModule
   ],
   declarations: [AssessmentSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],
   exports: [AssessmentSheetComponent, CandidateInfoFormComponent, KpiListFormComponent],

@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 
+import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from './layout/layout.module';
 import { AssessmentModule } from './assessment/assessment.module';
 import { AuthModule } from './auth/auth.module';
@@ -22,7 +23,8 @@ import { ProfileModule } from './profile/profile.module';
     LayoutModule,
     AssessmentModule,
     AuthModule,
-    ProfileModule
+    ProfileModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 import {
   MatSliderModule,
   MatInputModule,
@@ -12,6 +14,7 @@ import { TopNavigationComponent } from './top-navigation/top-navigation.componen
 
 @NgModule({
   imports: [
+    RouterModule,
     MatSliderModule,
     MatInputModule,
     MatAutocompleteModule,
