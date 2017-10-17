@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AssessmentSheetComponent } from './assessment-sheet/assessment-sheet.component';
 const routes: Routes = [
-  { path: 'assessment', component: AssessmentSheetComponent }
+  { path: '', component: AssessmentSheetComponent }
 ];
 
 @NgModule({

@@ -8,9 +8,6 @@ import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from './layout/layout.module';
-import { AssessmentModule } from './assessment/assessment.module';
-import { AuthModule } from './auth/auth.module';
-import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   declarations: [
@@ -21,9 +18,6 @@ import { ProfileModule } from './profile/profile.module';
     NgbModule.forRoot(),
     BrowserModule,
     LayoutModule,
-    AssessmentModule,
-    AuthModule,
-    ProfileModule,
     AppRoutingModule
   ],
   providers: [],
