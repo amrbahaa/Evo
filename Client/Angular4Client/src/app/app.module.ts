@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppComponent } from './app.component';
 
@@ -15,6 +16,7 @@ import { LayoutModule } from './layout/layout.module';
     AppComponent
   ],
   imports: [
+    FlexLayoutModule,
     RouterModule,
     BrowserAnimationsModule,
     NgbModule.forRoot(),
