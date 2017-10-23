@@ -1,10 +1,10 @@
-<form novalidate fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap>
+<form novalidate [formGroup]="loginForm" fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap>
 
   <h2> Login! </h2>
 
   <div fxFlex="100%">
     <mat-form-field class="email-input" fxFlexFill>
-      <input fromControlName="email" matInput placeholder="Email" value="" required>
+      <input fromControlName="email" #email matInput placeholder="Email" value="" required>
       <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
       <span matSuffix>@integrant.com</span>
       <mat-hint align="start">your @integrant account!</mat-hint>

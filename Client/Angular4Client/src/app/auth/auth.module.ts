@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import {
   MatFormFieldModule,
@@ -23,6 +24,7 @@ import { AuthService } from './auth.service';
     MatInputModule,
     MatButtonModule,
     CommonModule,
+    ReactiveFormsModule,
     AuthRoutingModule
   ],
   declarations: [LoginComponent],
