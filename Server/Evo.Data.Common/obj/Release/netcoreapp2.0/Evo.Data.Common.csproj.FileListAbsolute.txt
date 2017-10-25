@@ -1,0 +1,11 @@
+D:\Work\Evo\Server\Evo.Data.Common\output\Evo.Data.Common.deps.json
+D:\Work\Evo\Server\Evo.Data.Common\output\Evo.Data.Common.dll
+D:\Work\Evo\Server\Evo.Data.Common\output\Evo.Data.Common.pdb
+D:\Work\Evo\Server\Evo.Data.Common\obj\Release\netcoreapp2.0\Evo.Data.Common.csproj.CoreCompileInputs.cache
+D:\Work\Evo\Server\Evo.Data.Common\obj\Release\netcoreapp2.0\Evo.Data.Common.AssemblyInfoInputs.cache
+D:\Work\Evo\Server\Evo.Data.Common\obj\Release\netcoreapp2.0\Evo.Data.Common.AssemblyInfo.cs
+D:\Work\Evo\Server\Evo.Data.Common\obj\Release\netcoreapp2.0\Evo.Data.Common.dll
+D:\Work\Evo\Server\Evo.Data.Common\obj\Release\netcoreapp2.0\Evo.Data.Common.pdb
+D:\Work\Evo\Server\Evo.Data.Common\bin\Release\netcoreapp2.0\Evo.Data.Common.deps.json
+D:\Work\Evo\Server\Evo.Data.Common\bin\Release\netcoreapp2.0\Evo.Data.Common.dll
+D:\Work\Evo\Server\Evo.Data.Common\bin\Release\netcoreapp2.0\Evo.Data.Common.pdb
