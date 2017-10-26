@@ -1,0 +1,23 @@
+<form [formGroup]="candidateInfo" novalidate>
+  <div class="form-row">
+    <!-- Candidate Name -->
+    <mat-form-field class="col-md-6">
+      <input fromControlName="candidate_name" matInput placeholder="Candidate Name" value="">
+    </mat-form-field>
+    <!-- // Candidate Name -->
+
+    <!-- Candidate Position -->
+    <mat-form-field class="col-md-6">
+      <input fromControlName="candidate_position" matInput aria-label="Candidate Position" placeholder="Candidate Position" [matAutocomplete]="positionsauto"
+        [formControl]="positionCtrl">
+      <mat-autocomplete #positionsauto="matAutocomplete">
+        <mat-option *ngFor="let position of filteredPositions$ | async" [value]="position.Name">
+          {{ position.Name }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+    <!-- // Candidate Position -->
+
+  </div>
+</form>
