@@ -2,13 +2,15 @@ version: '3'
 
 services:
   evo.db.mongo:
-    image: mongo
     networks: 
       - evodevnetwork
     ports:
       - "27017:27017"
-    volumes:
-      - "./datadb/:/data/"
+    # volumes:
+    #   - "/datadb/:/data/db"
+    build:
+      context: ./mongo/
+      dockerfile: Dockerfile
 
   evo.web.api:
     image: evo.web.api
