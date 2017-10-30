@@ -10,7 +10,7 @@ services:
     #   - "/datadb/:/data/db"
     build:
       context: ./mongo
-      dockerfile: Dockerfile
+      dockerfile: dockerfiledb
 
   evo.web.api:
     image: evo.web.api
