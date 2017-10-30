@@ -9,7 +9,7 @@ services:
     # volumes:
     #   - "/datadb/:/data/db"
     build:
-      context: ./mongo/
+      context: ./mongo
       dockerfile: Dockerfile
 
   evo.web.api:
