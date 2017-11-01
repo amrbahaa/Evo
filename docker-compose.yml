@@ -9,7 +9,7 @@ services:
     # volumes:
     #   - "/datadb/:/data/db"
     build:
-      context: ./mongo
+      context: ./Server/mongo
       dockerfile: Dockerfile
 
   evo.web.api:
@@ -21,8 +21,16 @@ services:
     links: 
       - "evo.db.mongo:db"
     build:
-      context: .
+      context: ./Server
       dockerfile: Dockerfile
+
+  evo.web:
+    image: evo.web
+    build:
+      context: ./Client/Angular4Client
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
 
 networks: 
   evodevnetwork: 

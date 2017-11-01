@@ -8,7 +8,7 @@ import { KpiService } from './../kpi.service';
 @Component({
   selector: 'app-candidate-info-form',
   templateUrl: './candidate-info-form.component.html',
-  styleUrls: ['./candidate-info-form.component.css']
+  styleUrls: ['./candidate-info-form.component.scss']
 })
 export class CandidateInfoFormComponent implements OnInit {
   candidateInfo: FormGroup;

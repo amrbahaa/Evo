@@ -5,7 +5,7 @@ import { KpiService } from './../kpi.service';
 @Component({
   selector: 'app-kpi-list-form',
   templateUrl: './kpi-list-form.component.html',
-  styleUrls: ['./kpi-list-form.component.css']
+  styleUrls: ['./kpi-list-form.component.scss']
 })
 export class KpiListFormComponent implements OnInit {
 
