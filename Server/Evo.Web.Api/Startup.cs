@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Evo.Data.Common;
 using Evo.Data.Repositories;
 using Evo.Domain;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Evo.Web.Api
 {
@@ -26,6 +29,14 @@ namespace Evo.Web.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Add Bearer authentication
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.Audience = "http://localhost:5001/";
+                    options.Authority = "http://localhost:5000/";
+                });
+
             //add here Framework Services
             services.AddMvc();
 
@@ -48,6 +59,24 @@ namespace Evo.Web.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //add Jwt configuration
+            app.UseAuthentication();
+
+
+            //app.UseJwtBearerAuthentication(new JwtBearerOptions
+            //{
+            //    AutomaticAuthenticate = true,
+            //    AutomaticChallenge = true,
+            //    TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration.GetSection("AppConfiguration:Key").Value)),
+            //        ValidAudience = Configuration.GetSection("AppConfiguration:SiteUrl").Value,
+            //        ValidateIssuerSigningKey = true,
+            //        ValidateLifetime = true,
+            //        ValidIssuer = Configuration.GetSection("AppConfiguration:SiteUrl").Value
+            //    }
+            //});
 
             app.UseMvc();
         }
