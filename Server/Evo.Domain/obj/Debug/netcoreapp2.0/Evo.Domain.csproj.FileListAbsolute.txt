@@ -15,3 +15,11 @@ D:\Work\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.AssemblyInfo.cs
 D:\Work\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.dll
 D:\Work\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.pdb
 D:\Work\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.csprojResolveAssemblyReference.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\bin\Debug\netcoreapp2.0\Evo.Domain.deps.json
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\bin\Debug\netcoreapp2.0\Evo.Domain.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\bin\Debug\netcoreapp2.0\Evo.Domain.pdb
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.csproj.CoreCompileInputs.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.AssemblyInfoInputs.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.AssemblyInfo.cs
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Domain\obj\Debug\netcoreapp2.0\Evo.Domain.pdb

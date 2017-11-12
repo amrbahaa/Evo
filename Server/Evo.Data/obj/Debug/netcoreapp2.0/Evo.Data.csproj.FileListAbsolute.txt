@@ -30,3 +30,16 @@ D:\Work\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Domain.dll
 D:\Work\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.Common.pdb
 D:\Work\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Domain.pdb
 D:\Work\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.csprojResolveAssemblyReference.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.deps.json
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.pdb
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.Common.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Domain.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Data.Common.pdb
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\bin\Debug\netcoreapp2.0\Evo.Domain.pdb
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.csprojResolveAssemblyReference.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.csproj.CoreCompileInputs.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.AssemblyInfoInputs.cache
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.AssemblyInfo.cs
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.dll
+D:\Integrant\Evaluation Project\Evo\Server\Evo.Data\obj\Debug\netcoreapp2.0\Evo.Data.pdb

@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Evo.Core.EmailSenderContracts;
+using Evo.Core.MailGunEmailSender;
 
 namespace Evo.Web.Api
 {
@@ -37,6 +39,9 @@ namespace Evo.Web.Api
 
             //Repositories
             services.AddTransient<IAssessmentRepository, AssessmentRepository>();
+
+            // Email Send Service
+            services.AddTransient<IEmailSender, EmailSender>();
 
 
         }
