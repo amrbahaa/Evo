@@ -30,11 +30,18 @@ namespace Evo.Web.Api
         public void ConfigureServices(IServiceCollection services)
         {
             //Add Bearer authentication
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
+            services.AddAuthentication().AddJwtBearer(cfg =>
                 {
-                    options.Audience = "http://localhost:5001/";
-                    options.Authority = "http://localhost:5000/";
+                    cfg.RequireHttpsMetadata = false;
+                    cfg.SaveToken = true;
+
+                    cfg.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidIssuer = Configuration["Tokens:Issuer"],
+                        ValidAudience = Configuration["Tokens:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"]))
+                    };
+
                 });
 
             //add here Framework Services
@@ -45,6 +52,9 @@ namespace Evo.Web.Api
                 options.ConnectionString = Configuration.GetSection("MongoConnection:ConnectionString").Value;
                 options.Database = Configuration.GetSection("MongoConnection:Database").Value;
             });
+
+            //Add configuration
+            services.AddSingleton<IConfiguration>(Configuration);
 
             //Repositories
             services.AddTransient<IAssessmentRepository, AssessmentRepository>();
@@ -60,7 +70,7 @@ namespace Evo.Web.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            //add Jwt configuration
+            //use authentication
             app.UseAuthentication();
 
 
