@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Evo.Data.Common;
 using Evo.Data.Repositories;
-using Evo.Domain;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +12,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Evo.Core.EmailSenderContracts;
+using Evo.Core.MailGunEmailSender;
 using Microsoft.IdentityModel.Tokens;
+using Evo.Domain.Repositories;
+using Evo.Domain;
 
 namespace Evo.Web.Api
 {
@@ -58,6 +61,10 @@ namespace Evo.Web.Api
 
             //Repositories
             services.AddTransient<IAssessmentRepository, AssessmentRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+
+            // Email Send Service
+            services.AddTransient<IEmailSender, EmailSender>();
 
 
         }
