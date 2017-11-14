@@ -32,5 +32,13 @@ namespace Evo.Data
                 return _database.GetCollection<Assessment>("Assessment");
             }
         }
+
+        public IMongoCollection<User> Users
+        {
+            get
+            {
+                return _database.GetCollection<User>("User");
+            }
+        }
     }
 }
