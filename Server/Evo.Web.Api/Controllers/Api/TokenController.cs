@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Evo.Security.Jwt;
 using Evo.Web.Api.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -18,10 +19,12 @@ namespace Evo.Web.Api.Controllers.Api
     [Route("api/Token")]
     public class TokenController : Controller
     {
-        private IConfiguration _configuration;
-        public TokenController(IConfiguration configuration)
+        //private IConfiguration _configuration;
+        private readonly IJwtTokenIssuer _jwtTokenIssuer;
+        public TokenController(IConfiguration configuration, IJwtTokenIssuer jwtTokenIssuer)
         {
-            _configuration = configuration;
+            //_configuration = configuration;
+            _jwtTokenIssuer = jwtTokenIssuer;
         }
         [AllowAnonymous]
         [HttpPost]
@@ -29,20 +32,7 @@ namespace Evo.Web.Api.Controllers.Api
         {
             if (request.Username == request.Username && request.Password == request.Password)
             {
-                var claims = new[]
-                {
-                    new Claim(ClaimTypes.Name, request.Username)
-                };
-
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("TokenOptions:SigningKey").Value));
-                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-                var token = new JwtSecurityToken(
-                    issuer: _configuration.GetSection("TokenOptions:Issuer").Value,
-                    audience: _configuration.GetSection("TokenOptions:Audience").Value,
-                    claims: claims,
-                    expires: DateTime.Now.AddMinutes(30),
-                    signingCredentials: creds);
+                var token = _jwtTokenIssuer.CreateToken(request.Username);
 
                 return Ok(new
                 {

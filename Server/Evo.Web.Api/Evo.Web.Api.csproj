@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Evo.Security.Jwt\Evo.Security.Jwt.csproj" />
     <ProjectReference Include="..\Evo.Core.EmailSenderContracts\Evo.Core.EmailSenderContracts.csproj" />
     <ProjectReference Include="..\Evo.Core.MailGunEmailSender\Evo.Core.MailGunEmailSender.csproj" />
     <ProjectReference Include="..\Evo.Core.PostmarkEmailSender\Evo.Core.PostmarkEmailSender.csproj" />
