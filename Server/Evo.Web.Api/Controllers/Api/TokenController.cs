@@ -27,7 +27,7 @@ namespace Evo.Web.Api.Controllers.Api
         [HttpPost]
         public IActionResult RequestToken([FromBody] TokenRequestViewModel request)
         {
-            if (request.Username == "Jon" && request.Password == "Again, not for production use, DEMO ONLY!")
+            if (request.Username == request.Username && request.Password == request.Password)
             {
                 var claims = new[]
                 {
