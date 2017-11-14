@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Data", "Evo.Data\Evo.Data.csproj", "{29C7E353-FDF6-4C30-B6CB-4BF1AFFCA11B}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Web.Api", "Evo.Web.Api\Evo.Web.Api.csproj", "{CBF7FF12-2D59-4FA4-AB49-D90675AAEB5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Data.Common", "Evo.Data.Common\Evo.Data.Common.csproj", "{2BECB493-69E3-4C6D-853E-36E21296FA85}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{03F80DF8-8BDC-4B98-8AEE-D87456F33F76}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Core.EmailSenderContracts", "Evo.Core.EmailSenderContracts\Evo.Core.EmailSenderContracts.csproj", "{639BB491-F06A-4C10-AA11-F56DD0CCA389}"
 EndProject
@@ -41,10 +39,6 @@ Global
 		{2BECB493-69E3-4C6D-853E-36E21296FA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BECB493-69E3-4C6D-853E-36E21296FA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BECB493-69E3-4C6D-853E-36E21296FA85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03F80DF8-8BDC-4B98-8AEE-D87456F33F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03F80DF8-8BDC-4B98-8AEE-D87456F33F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03F80DF8-8BDC-4B98-8AEE-D87456F33F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03F80DF8-8BDC-4B98-8AEE-D87456F33F76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{639BB491-F06A-4C10-AA11-F56DD0CCA389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{639BB491-F06A-4C10-AA11-F56DD0CCA389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639BB491-F06A-4C10-AA11-F56DD0CCA389}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1568,7 +1568,7 @@
       ]
     },
     "RestSharp/106.0.0": {
-      "sha512": "9Imxz/9m6bi5zsBkLIAfNz77gFuUhIgJqYP1Q6gFBxkZWwhJPV2wr/ef1Jq7ictc7+iAFpLHXpARYg3kxCCw9g==",
+      "sha512": "tyXybXoHb5D9PA2Ru2vgSaGGny581qWeQx7qZtOH61P+7XyKUgJk6wQfLIASzMDmvdPHDinUYSu65AAjVAm9dg==",
       "type": "package",
       "path": "restsharp/106.0.0",
       "files": [
@@ -3694,7 +3694,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\psobhy\\.nuget\\packages\\": {},
+    "C:\\Users\\abahaa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3703,17 +3703,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj",
+      "projectUniqueName": "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj",
       "projectName": "Evo.Core.MailGunEmailSender",
-      "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj",
-      "packagesPath": "C:\\Users\\psobhy\\.nuget\\packages\\",
-      "outputPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\obj\\",
+      "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj",
+      "packagesPath": "C:\\Users\\abahaa\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\psobhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3721,13 +3721,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://integrantnugetserver.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
             }
           }
         }

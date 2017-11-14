@@ -3327,21 +3327,6 @@
           "lib/netstandard1.6/Swashbuckle.AspNetCore.dll": {}
         }
       },
-      "Swashbuckle.AspNetCore/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Swashbuckle.AspNetCore.Swagger": "1.0.0",
-          "Swashbuckle.AspNetCore.SwaggerGen": "1.0.0",
-          "Swashbuckle.AspNetCore.SwaggerUI": "1.0.0"
-        },
-        "compile": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore.Swagger/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -8386,7 +8371,7 @@
       ]
     },
     "RestSharp/106.0.0": {
-      "sha512": "9Imxz/9m6bi5zsBkLIAfNz77gFuUhIgJqYP1Q6gFBxkZWwhJPV2wr/ef1Jq7ictc7+iAFpLHXpARYg3kxCCw9g==",
+      "sha512": "tyXybXoHb5D9PA2Ru2vgSaGGny581qWeQx7qZtOH61P+7XyKUgJk6wQfLIASzMDmvdPHDinUYSu65AAjVAm9dg==",
       "type": "package",
       "path": "restsharp/106.0.0",
       "files": [
@@ -13655,7 +13640,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\psobhy\\.nuget\\packages\\": {},
+    "C:\\Users\\abahaa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13664,17 +13649,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Web.Api\\Evo.Web.Api.csproj",
+      "projectUniqueName": "D:\\Work\\Evo\\Server\\Evo.Web.Api\\Evo.Web.Api.csproj",
       "projectName": "Evo.Web.Api",
-      "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Web.Api\\Evo.Web.Api.csproj",
-      "packagesPath": "C:\\Users\\psobhy\\.nuget\\packages\\",
-      "outputPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Web.Api\\obj\\",
+      "projectPath": "D:\\Work\\Evo\\Server\\Evo.Web.Api\\Evo.Web.Api.csproj",
+      "packagesPath": "C:\\Users\\abahaa\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Evo\\Server\\Evo.Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\psobhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13682,25 +13667,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://integrantnugetserver.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj"
             },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
             },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj"
             },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj"
             },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
             }
           }
         }
