@@ -1,8 +1,0 @@
-/src/Evo.Domain/bin/Debug/netcoreapp2.0/Evo.Domain.deps.json
-/src/Evo.Domain/bin/Debug/netcoreapp2.0/Evo.Domain.dll
-/src/Evo.Domain/bin/Debug/netcoreapp2.0/Evo.Domain.pdb
-/src/Evo.Domain/obj/Debug/netcoreapp2.0/Evo.Domain.csproj.CoreCompileInputs.cache
-/src/Evo.Domain/obj/Debug/netcoreapp2.0/Evo.Domain.AssemblyInfoInputs.cache
-/src/Evo.Domain/obj/Debug/netcoreapp2.0/Evo.Domain.AssemblyInfo.cs
-/src/Evo.Domain/obj/Debug/netcoreapp2.0/Evo.Domain.dll
-/src/Evo.Domain/obj/Debug/netcoreapp2.0/Evo.Domain.pdb
