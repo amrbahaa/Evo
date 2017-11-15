@@ -3139,7 +3139,7 @@
       ]
     },
     "System.Net.Http/4.3.2": {
-      "sha512": "lMWo6D6xy0woLfu6COg5tnq5JMHZR8avQrLP+hDENw/YfI7izIE0OdNL0cmGZmYrhZcVUtIQpraC4aoqBz05zA==",
+      "sha512": "y7hv0o0weI0j0mvEcBOdt1F3CAADiWlcw3e54m8TfYiRmBPDIsHElx8QUPDlY4x6yWXKPGN0Z2TuXCTPgkm5WQ==",
       "type": "package",
       "path": "system.net.http/4.3.2",
       "files": [
@@ -4902,7 +4902,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\psobhy\\.nuget\\packages\\": {},
+    "C:\\Users\\abahaa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -4911,17 +4911,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj",
+      "projectUniqueName": "D:\\Work\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj",
       "projectName": "Evo.Core.PostmarkEmailSender",
-      "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj",
-      "packagesPath": "C:\\Users\\psobhy\\.nuget\\packages\\",
-      "outputPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\obj\\",
+      "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\Evo.Core.PostmarkEmailSender.csproj",
+      "packagesPath": "C:\\Users\\abahaa\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Evo\\Server\\Evo.Core.PostmarkEmailSender\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\psobhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4929,13 +4929,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://integrantnugetserver.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj"
             }
           }
         }
