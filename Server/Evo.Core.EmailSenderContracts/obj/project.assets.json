@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abahaa\\.nuget\\packages\\": {},
+    "C:\\Users\\psobhy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj",
+      "projectUniqueName": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj",
       "projectName": "Evo.Core.EmailSenderContracts",
-      "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj",
-      "packagesPath": "C:\\Users\\abahaa\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Evo\\Server\\Evo.Core.EmailSenderContracts\\obj\\",
+      "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\Evo.Core.EmailSenderContracts.csproj",
+      "packagesPath": "C:\\Users\\psobhy\\.nuget\\packages\\",
+      "outputPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.EmailSenderContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\abahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\psobhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -691,7 +691,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://integrantnugetserver.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

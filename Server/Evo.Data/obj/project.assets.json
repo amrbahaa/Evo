@@ -2222,7 +2222,7 @@
       ]
     },
     "System.Collections.Specialized/4.0.1": {
-      "sha512": "/HKQyVP0yH1I0YtK7KJL/28snxHNH/bi+0lgk/+MbURF6ULhAE31MDI+NZDerNWu264YbxklXCCygISgm+HMug==",
+      "sha512": "KCn5boHWa7mc3sPxmTHOYIAj5nyEFk3wFh5gSVEIx/ZdcCmnHNjjO1kctMovRB1nuo7t0V/AyyXlKcNBmKBcvA==",
       "type": "package",
       "path": "system.collections.specialized/4.0.1",
       "files": [
@@ -4811,7 +4811,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abahaa\\.nuget\\packages\\": {},
+    "C:\\Users\\psobhy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -4820,17 +4820,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj",
+      "projectUniqueName": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj",
       "projectName": "Evo.Data",
-      "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj",
-      "packagesPath": "C:\\Users\\abahaa\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Evo\\Server\\Evo.Data\\obj\\",
+      "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj",
+      "packagesPath": "C:\\Users\\psobhy\\.nuget\\packages\\",
+      "outputPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\abahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\psobhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4838,17 +4838,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://integrantnugetserver.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Work\\Evo\\Server\\Evo.Domain\\Evo.Domain.csproj": {
-              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Domain\\Evo.Domain.csproj"
+            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Domain\\Evo.Domain.csproj": {
+              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Domain\\Evo.Domain.csproj"
             },
-            "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
-              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
+            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
+              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
             }
           }
         }
