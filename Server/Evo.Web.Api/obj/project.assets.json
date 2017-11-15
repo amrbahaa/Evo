@@ -13657,8 +13657,8 @@
     },
     "Evo.Security.Jwt/1.0.0": {
       "type": "project",
-      "path": "../../Evo.Security.Jwt/Evo.Security.Jwt.csproj",
-      "msbuildProject": "../../Evo.Security.Jwt/Evo.Security.Jwt.csproj"
+      "path": "../Evo.Security.Jwt/Evo.Security.Jwt.csproj",
+      "msbuildProject": "../Evo.Security.Jwt/Evo.Security.Jwt.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13719,14 +13719,14 @@
             "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj": {
               "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data\\Evo.Data.csproj"
             },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj"
-            },
-            "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj": {
-              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj"
+            "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj"
             },
             "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
               "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
+            },
+            "D:\\Work\\Evo\\Server\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj"
             }
           }
         }
