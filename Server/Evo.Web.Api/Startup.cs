@@ -17,6 +17,7 @@ using Evo.Core.MailGunEmailSender;
 using Microsoft.IdentityModel.Tokens;
 using Evo.Domain.Repositories;
 using Evo.Domain;
+using Evo.Security.Jwt;
 
 namespace Evo.Web.Api
 {
@@ -33,11 +34,18 @@ namespace Evo.Web.Api
         public void ConfigureServices(IServiceCollection services)
         {
             //Add Bearer authentication
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
+            services.AddAuthentication().AddJwtBearer(cfg =>
                 {
-                    options.Audience = "http://localhost:5001/";
-                    options.Authority = "http://localhost:5000/";
+                    cfg.RequireHttpsMetadata = false;
+                    cfg.SaveToken = true;
+
+                    cfg.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidIssuer = Configuration["TokenOptions:Issuer"],
+                        ValidAudience = Configuration["TokenOptions:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenOptions:SigningKey"]))
+                    };
+
                 });
 
             //add here Framework Services
@@ -49,12 +57,27 @@ namespace Evo.Web.Api
                 options.Database = Configuration.GetSection("MongoConnection:Database").Value;
             });
 
+            services.Configure<JwtOptions>(jwtOptions =>
+            {
+                jwtOptions.Audience = Configuration.GetSection("TokenOptions:Audience").Value;
+                jwtOptions.Issuer = Configuration.GetSection("TokenOptions:Issuer").Value;
+                jwtOptions.SigningKey = Configuration.GetSection("TokenOptions:SigningKey").Value;
+            });
+
+            //Add configuration
+            services.AddSingleton<IConfiguration>(Configuration);
+
             //Repositories
             services.AddTransient<IAssessmentRepository, AssessmentRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
 
+            //**Common Services**
+
             // Email Send Service
             services.AddTransient<IEmailSender, EmailSender>();
+
+            //Jwt issuer
+            services.AddTransient<IJwtTokenIssuer, JwtTokenIssuer>();
 
 
         }
@@ -67,7 +90,7 @@ namespace Evo.Web.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            //add Jwt configuration
+            //use authentication
             app.UseAuthentication();
 
 

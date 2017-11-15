@@ -5324,6 +5324,21 @@
         "runtime": {
           "bin/placeholder/Evo.Domain.dll": {}
         }
+      },
+      "Evo.Security.Jwt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.IdentityModel.Tokens": "5.1.4",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Evo.Security.Jwt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Evo.Security.Jwt.dll": {}
+        }
       }
     }
   },
@@ -8129,7 +8144,9 @@
       "files": [
         "License.rtf",
         "lib/net45/MongoDB.Bson.dll",
+        "lib/net45/MongoDB.Bson.xml",
         "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
         "mongodb.bson.2.4.4.nupkg.sha512",
         "mongodb.bson.nuspec"
       ]
@@ -8141,7 +8158,9 @@
       "files": [
         "License.rtf",
         "lib/net45/MongoDB.Driver.dll",
+        "lib/net45/MongoDB.Driver.xml",
         "lib/netstandard1.5/MongoDB.Driver.dll",
+        "lib/netstandard1.5/MongoDB.Driver.xml",
         "mongodb.driver.2.4.4.nupkg.sha512",
         "mongodb.driver.nuspec"
       ]
@@ -8153,7 +8172,9 @@
       "files": [
         "License.rtf",
         "lib/net45/MongoDB.Driver.Core.dll",
+        "lib/net45/MongoDB.Driver.Core.xml",
         "lib/netstandard1.5/MongoDB.Driver.Core.dll",
+        "lib/netstandard1.5/MongoDB.Driver.Core.xml",
         "mongodb.driver.core.2.4.4.nupkg.sha512",
         "mongodb.driver.core.nuspec"
       ]
@@ -12519,6 +12540,16 @@
         "ref/MonoTouch10/_._",
         "ref/net46/System.Security.SecureString.dll",
         "ref/netstandard1.3/System.Security.SecureString.dll",
+        "ref/netstandard1.3/System.Security.SecureString.xml",
+        "ref/netstandard1.3/de/System.Security.SecureString.xml",
+        "ref/netstandard1.3/es/System.Security.SecureString.xml",
+        "ref/netstandard1.3/fr/System.Security.SecureString.xml",
+        "ref/netstandard1.3/it/System.Security.SecureString.xml",
+        "ref/netstandard1.3/ja/System.Security.SecureString.xml",
+        "ref/netstandard1.3/ko/System.Security.SecureString.xml",
+        "ref/netstandard1.3/ru/System.Security.SecureString.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.SecureString.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.SecureString.xml",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
@@ -13623,6 +13654,11 @@
       "type": "project",
       "path": "../Evo.Domain/Evo.Domain.csproj",
       "msbuildProject": "../Evo.Domain/Evo.Domain.csproj"
+    },
+    "Evo.Security.Jwt/1.0.0": {
+      "type": "project",
+      "path": "../../Evo.Security.Jwt/Evo.Security.Jwt.csproj",
+      "msbuildProject": "../../Evo.Security.Jwt/Evo.Security.Jwt.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13632,6 +13668,7 @@
       "Evo.Core.PostmarkEmailSender >= 1.0.0",
       "Evo.Data >= 1.0.0",
       "Evo.Data.Common >= 1.0.0",
+      "Evo.Security.Jwt >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13680,6 +13717,9 @@
             },
             "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj": {
               "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Data\\Evo.Data.csproj"
+            },
+            "D:\\Integrant\\Evaluation Project\\Evo\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj": {
+              "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj"
             },
             "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj": {
               "projectPath": "D:\\Integrant\\Evaluation Project\\Evo\\Server\\Evo.Core.MailGunEmailSender\\Evo.Core.MailGunEmailSender.csproj"
