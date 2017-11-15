@@ -7,7 +7,7 @@
     using Evo.Domain.Entities;
     using MongoDB.Driver;
 
-    public interface IUserRepository
+    public interface IUserRepository : IRepository<User, string>
     {
 
     }

@@ -3,17 +3,8 @@
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-
-    /* 
-     * TODO MOGNO prefix due to using Mongo Lib in interface like 
-     * "MongoDB.Driver.FilterDefinition"
-     * "MongoDB.Driver.ReplaceOneResult"
-     * "MongoDB.Driver.DeleteResult"'     
-     * 
-     * Otherwise, return Boolean or custom type like DbResult { Status: bool, Message: string, Value: Object }
-    */
-
-    public interface IMongoDbRepository<T, K>
+    
+    public interface IRepository<T, K>
     {
         Task Create(T item);
 

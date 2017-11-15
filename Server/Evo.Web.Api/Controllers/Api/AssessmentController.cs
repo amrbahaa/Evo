@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Evo.Domain;
 using Evo.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Evo.Domain.Repositories;
 
 namespace Evo.Web.Api.Controllers.Api
 {
@@ -27,7 +27,7 @@ namespace Evo.Web.Api.Controllers.Api
 
         private async Task<IEnumerable<Assessment>> GetAssessmentInternal()
         {
-            var assessments = await _assessmentRepository.GetAllAssesments();
+            var assessments = await _assessmentRepository.GetList();
             return assessments;
         }
 
@@ -40,7 +40,7 @@ namespace Evo.Web.Api.Controllers.Api
 
         private async Task<Assessment> GetAssessmentByIdInternal(string id)
         {
-            var assessment = await _assessmentRepository.GetAssessment(id) ?? new Assessment();
+            var assessment = await _assessmentRepository.GetById(id) ?? new Assessment();
             return assessment;
         }
 
@@ -48,21 +48,21 @@ namespace Evo.Web.Api.Controllers.Api
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            _assessmentRepository.AddAssessment(
-                new Assessment() {Body = value, CreatedOn = DateTime.Now, UpdatedOn = DateTime.Now});
+            _assessmentRepository.Create(
+                new Assessment() { Body = value, CreatedOn = DateTime.Now, UpdatedOn = DateTime.Now });
         }
 
         // PUT api/assessment/5
         [HttpPut("{id}")]
         public void Put(string id, [FromBody] string value)
         {
-            _assessmentRepository.UpdateAssessment(id, value);
+            _assessmentRepository.Update(id, new Assessment() { Body = value, CreatedOn = DateTime.Now, UpdatedOn = DateTime.Now });
         }
 
         // DELETE api/assessment/5
         public void Delete(string id)
         {
-            _assessmentRepository.RemoveAssessment(id);
+            _assessmentRepository.Delete(id);
         }
     }
 }
