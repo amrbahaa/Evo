@@ -5324,6 +5324,21 @@
         "runtime": {
           "bin/placeholder/Evo.Domain.dll": {}
         }
+      },
+      "Evo.Security.Jwt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.IdentityModel.Tokens": "5.1.4",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Evo.Security.Jwt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Evo.Security.Jwt.dll": {}
+        }
       }
     }
   },
@@ -13639,6 +13654,11 @@
       "type": "project",
       "path": "../Evo.Domain/Evo.Domain.csproj",
       "msbuildProject": "../Evo.Domain/Evo.Domain.csproj"
+    },
+    "Evo.Security.Jwt/1.0.0": {
+      "type": "project",
+      "path": "../Evo.Security.Jwt/Evo.Security.Jwt.csproj",
+      "msbuildProject": "../Evo.Security.Jwt/Evo.Security.Jwt.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13648,6 +13668,7 @@
       "Evo.Core.PostmarkEmailSender >= 1.0.0",
       "Evo.Data >= 1.0.0",
       "Evo.Data.Common >= 1.0.0",
+      "Evo.Security.Jwt >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13703,6 +13724,9 @@
             },
             "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj": {
               "projectPath": "D:\\Work\\Evo\\Server\\Evo.Data.Common\\Evo.Data.Common.csproj"
+            },
+            "D:\\Work\\Evo\\Server\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj": {
+              "projectPath": "D:\\Work\\Evo\\Server\\Evo.Security.Jwt\\Evo.Security.Jwt.csproj"
             }
           }
         }
