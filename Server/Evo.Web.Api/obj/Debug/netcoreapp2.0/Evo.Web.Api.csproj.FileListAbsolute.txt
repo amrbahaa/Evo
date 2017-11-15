@@ -37,26 +37,3 @@ D:\Work\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Domain.dll
 D:\Work\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.Common.pdb
 D:\Work\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.pdb
 D:\Work\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Domain.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Web.Api.deps.json
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Web.Api.runtimeconfig.json
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Web.Api.runtimeconfig.dev.json
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Web.Api.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Web.Api.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.MailGunEmailSender.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.Common.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Domain.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.MailGunEmailSender.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.Common.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Data.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\bin\Debug\netcoreapp2.0\Evo.Domain.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.csprojResolveAssemblyReference.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.csproj.CoreCompileInputs.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.AssemblyInfoInputs.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.AssemblyInfo.cs
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Web.Api\obj\Debug\netcoreapp2.0\Evo.Web.Api.pdb

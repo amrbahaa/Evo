@@ -9,14 +9,3 @@ D:\Integrant\Evaluation Project\Evo\Evo.Core.PostmarkEmailSender\obj\Debug\netco
 D:\Integrant\Evaluation Project\Evo\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.pdb
 D:\Integrant\Evaluation Project\Evo\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.dll
 D:\Integrant\Evaluation Project\Evo\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.deps.json
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\bin\Debug\netcoreapp2.0\Evo.Core.EmailSenderContracts.pdb
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.csprojResolveAssemblyReference.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.csproj.CoreCompileInputs.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.AssemblyInfoInputs.cache
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.AssemblyInfo.cs
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.dll
-D:\Integrant\Evaluation Project\Evo\Server\Evo.Core.PostmarkEmailSender\obj\Debug\netcoreapp2.0\Evo.Core.PostmarkEmailSender.pdb
