@@ -1,0 +1,5 @@
+FROM microsoft/aspnetcore-build as builder
+WORKDIR /src
+COPY . .
+WORKDIR /src/Evo.Web.Api
+RUN dotnet restore --packages ./output && dotnet publish --configuration Release --output ./output
