@@ -6,6 +6,7 @@ using Evo.Domain;
 using Evo.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Evo.Domain.Repositories;
 
 namespace Evo.Web.Api.Controllers.Api
 {
@@ -26,8 +27,8 @@ namespace Evo.Web.Api.Controllers.Api
         {
             if (setting == "init")
             {
-                _assessmentRepository.RemoveAllAssessments();
-                _assessmentRepository.AddAssessment(new Assessment()
+                _assessmentRepository.Delete();
+                _assessmentRepository.Create(new Assessment()
                 {
                     Id = "1",
                     Body = "Test note 1",
@@ -35,7 +36,7 @@ namespace Evo.Web.Api.Controllers.Api
                     UpdatedOn = DateTime.Now,
                     UserId = 1
                 });
-                _assessmentRepository.AddAssessment(new Assessment()
+                _assessmentRepository.Create(new Assessment()
                 {
                     Id = "2",
                     Body = "Test note 2",
@@ -43,7 +44,7 @@ namespace Evo.Web.Api.Controllers.Api
                     UpdatedOn = DateTime.Now,
                     UserId = 1
                 });
-                _assessmentRepository.AddAssessment(new Assessment()
+                _assessmentRepository.Create(new Assessment()
                 {
                     Id = "3",
                     Body = "Test note 3",
@@ -51,7 +52,7 @@ namespace Evo.Web.Api.Controllers.Api
                     UpdatedOn = DateTime.Now,
                     UserId = 2
                 });
-                _assessmentRepository.AddAssessment(new Assessment()
+                _assessmentRepository.Create(new Assessment()
                 {
                     Id = "4",
                     Body = "Test note 4",

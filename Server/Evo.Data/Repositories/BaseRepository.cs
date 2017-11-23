@@ -11,7 +11,7 @@
     using Evo.Data.Common;
     using Evo.Domain.Repositories;
 
-    public abstract class BaseRepository<T, K> : IMongoDbRepository<T, K>
+    public abstract class BaseRepository<T, K> : IRepository<T, K>
         where T : class
         where K : IEquatable<K>, IComparable<K>, IConvertible
     {

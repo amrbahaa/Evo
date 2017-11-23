@@ -9,6 +9,7 @@
     using Evo.Data.Common;
     using Evo.Domain;
     using Evo.Domain.Entities;
+    using Evo.Domain.Repositories;
 
     public class AssessmentRepository : BaseRepository<Assessment, string>, IAssessmentRepository
     {
